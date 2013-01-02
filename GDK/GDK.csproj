@@ -12,27 +12,60 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
-    <DebugSymbols>true</DebugSymbols>
+    <DebugSymbols>True</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
+    <Optimize>False</Optimize>
     <OutputPath>bin\Debug</OutputPath>
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>x86</PlatformTarget>
-    <ConsolePause>false</ConsolePause>
+    <ConsolePause>False</ConsolePause>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <DebugType>none</DebugType>
-    <Optimize>true</Optimize>
+    <Optimize>True</Optimize>
     <OutputPath>bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>x86</PlatformTarget>
-    <ConsolePause>false</ConsolePause>
+    <ConsolePause>False</ConsolePause>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="README.txt" />
+    <EmbeddedResource Include="Bilder\Bild01.jpg" />
+    <EmbeddedResource Include="Bilder\Bild02.jpg" />
+    <EmbeddedResource Include="Bilder\Bild03.jpg" />
+    <EmbeddedResource Include="Bilder\Bild04.jpg" />
+    <EmbeddedResource Include="Bilder\Bild05.jpg" />
+    <EmbeddedResource Include="Bilder\Bild06.jpg" />
+    <EmbeddedResource Include="Bilder\Bild07.jpg" />
+    <EmbeddedResource Include="Bilder\Bild08.jpg" />
+    <EmbeddedResource Include="Bilder\Bild09.jpg" />
+    <EmbeddedResource Include="Bilder\Bild10.jpg" />
+    <EmbeddedResource Include="Bilder\Bild11.jpg" />
+    <EmbeddedResource Include="Bilder\Bild12.jpg" />
+    <EmbeddedResource Include="Bilder\Bild13.jpg" />
+    <EmbeddedResource Include="Bilder\Bild14.jpg" />
+    <EmbeddedResource Include="Bilder\Bild15.jpg" />
+    <EmbeddedResource Include="Bilder\Bild16.jpg" />
+    <EmbeddedResource Include="Bilder\Bild17.jpg" />
+    <EmbeddedResource Include="Bilder\Bild18.jpg" />
+    <EmbeddedResource Include="Bilder\Bild19.jpg" />
+    <EmbeddedResource Include="Bilder\Bild20.jpg" />
+    <EmbeddedResource Include="Bilder\Bild21.jpg" />
+    <EmbeddedResource Include="Bilder\Bild22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anwendung.cs" />
+    <Compile Include="Ressourcen.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Bilder\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
 </Project>
