@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="GDK">
+</Property><Property Name="Projektmappendatei" Value="F:\GitHub\GDK\GDK.sln">
+</Property><Property Name="Date" Value="Montag, 7. Januar 2013">
+</Property><Property Name="Time" Value="16:19">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="GDK.sln" Description="Datei wurde erfolgreich als &quot;F:\GitHub\GDK\Backup1\GDK.sln&quot; gesichert">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\GDK.csproj" Description="Projektdatei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\GDK.csproj">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Anwendung.cs" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Anwendung.cs">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Ressourcen.cs" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Ressourcen.cs">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\README.txt" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\README.txt">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild01.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild01.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild02.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild02.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild03.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild03.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild04.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild04.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild05.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild05.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild06.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild06.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild07.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild07.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild08.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild08.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild09.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild09.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild10.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild10.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild11.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild11.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild12.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild12.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild13.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild13.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild14.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild14.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild15.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild15.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild16.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild16.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild17.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild17.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild18.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild18.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild19.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild19.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild20.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild20.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild21.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild21.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\Bilder\Bild22.jpg" Description="Datei erfolgreich gesichert als F:\GitHub\GDK\Backup1\GDK\Bilder\Bild22.jpg">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\GDK.csproj" Description="Projekt erfolgreich konvertiert">
+</Event><Event ErrorLevel="3" Project="GDK" Source="GDK\GDK.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="GDK.sln" Description="Die Projektmappe wurde erfolgreich konvertiert.">
+</Event><Event ErrorLevel="3" Project="" Source="GDK.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GDK" Source="GDK\GDK.csproj" Description="Überprüfung abgeschlossen: Upgrade der Projektdateien nicht erforderlich.">
+</Event></UpgradeLog>
