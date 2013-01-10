@@ -3,3 +3,6 @@ F:\GitHub\GDK\GDK\bin\Debug\GDK.pdb
 F:\GitHub\GDK\GDK\obj\x86\Debug\ResolveAssemblyReference.cache
 F:\GitHub\GDK\GDK\obj\x86\Debug\GDK.exe
 F:\GitHub\GDK\GDK\obj\x86\Debug\GDK.pdb
+F:\GitHub\GDK\GDK\obj\x86\Debug\GDK.Anwendung.resources
+F:\GitHub\GDK\GDK\obj\x86\Debug\ResGen.read.1.tlog
+F:\GitHub\GDK\GDK\obj\x86\Debug\ResGen.write.1.tlog

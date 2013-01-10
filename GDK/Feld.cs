@@ -9,27 +9,32 @@ namespace GDK
 {
     class Feld<T> where T : Control, new()
     {
+        private int width = 100;
+        private int height = 100;
         private int rows;
         private int cols;
         private T[,] content;
-        public int Rows
-        {
-            get { return rows; }
-        }
-        public int Cols
-        {
-            get { return cols; }
-        }
-        public T[,] Content
-        {
-            get { return content; }
-        }
+
+        public int Width { set { width = value; resizeField(); } }
+        public int Height { set { height = value; resizeField(); } }
+
+        public int Rows { get { return rows; } }
+        public int Cols { get { return cols; } }
+        public T[,] Content { get { return content; } }
 
         public Feld(int rows, int cols) {
             this.rows = rows;
             this.cols = cols;
             this.createField();
         }
+
+        private void resizeField()
+        {
+            for (int i = 0; i < Rows; i++)
+                for (int j = 0; j < Cols; j++)
+                    content[i, j].SetBounds(j * width, i * height, width, height);
+        }
+
         private void createField()
         {
             content = new T[rows, cols];
@@ -38,8 +43,8 @@ namespace GDK
                 for (int j = 0; j < Cols; j++)
                 {  
                     content[i, j] = new T();
-                    //content[i, j].SetBounds(j * 100, i * 100, 100, 100);
-                    //content[i, j].BackColor = Color.Red;
+                    content[i, j].SetBounds(j * width, i * height, width, height);
+                    content[i, j].Text = i + ", " + j;
                 }
             }
         }

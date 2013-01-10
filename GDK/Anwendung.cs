@@ -18,10 +18,39 @@ namespace GDK
 
 		public Anwendung ()
 		{
-            Feld<Label> meinFeld = FeldErzeuger<Label>.erzeugeFeld(3, 5);
-            Label[,] cont = meinFeld.Content;
-            this.Size = new System.Drawing.Size(800, 600);
+            Feld<Button> meinFeld = FeldErzeuger<Button>.createField(4, 3);
+            Button[,] cont = meinFeld.Content; // Zugriff auf die Elemente
+            cont[1, 2].Text = "Neu";
+            meinFeld.Width = 50;    // Breite verändern
+            meinFeld.Height = 50;   // Höhe verändern
+            foreach (Button l in cont)
+            {
+                this.Controls.Add(l);
+               // l.MouseEnter += new EventHandler(mouseEnter);
+               // l.MouseLeave += new EventHandler(mouseLeave);
+            }
+            this.Size = new System.Drawing.Size(200, 200);
 		}
+
+        public void mouseLeave(object sender, EventArgs e)
+        {
+            Label b;
+            if (sender is Label)
+                b = (Label)sender;
+            else
+                return;
+            b.BackColor = Color.LightGray;
+        }
+
+        public void mouseEnter(object sender, EventArgs e)
+        {
+            Label b;
+            if (sender is Label)
+                b = (Label)sender;
+            else
+                return;
+            b.BackColor = Color.Yellow;
+        }
 
         public void Init()
         {
