@@ -18,6 +18,8 @@ namespace GDK
 
 		public Anwendung ()
 		{
+            /*
+            // Beispiele für den Felderzeuger
             Feld<Button> meinFeld = FeldErzeuger<Button>.createField(4, 3);
             Button[,] cont = meinFeld.Content; // Zugriff auf die Elemente
             cont[1, 2].Text = "Neu";
@@ -26,12 +28,14 @@ namespace GDK
             foreach (Button l in cont)
             {
                 this.Controls.Add(l);
-               // l.MouseEnter += new EventHandler(mouseEnter);
-               // l.MouseLeave += new EventHandler(mouseLeave);
+                l.MouseEnter += new EventHandler(mouseEnter);
+                l.MouseLeave += new EventHandler(mouseLeave);
             }
             this.Size = new System.Drawing.Size(200, 200);
+            */
 		}
 
+        /*
         public void mouseLeave(object sender, EventArgs e)
         {
             Label b;
@@ -51,6 +55,7 @@ namespace GDK
                 return;
             b.BackColor = Color.Yellow;
         }
+        */
 
         public void Init()
         {

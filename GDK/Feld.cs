@@ -41,10 +41,10 @@ namespace GDK
             for (int i = 0; i < Rows; i++)
             {
                 for (int j = 0; j < Cols; j++)
-                {  
+                {
                     content[i, j] = new T();
                     content[i, j].SetBounds(j * width, i * height, width, height);
-                    content[i, j].Text = i + ", " + j;
+                    //content[i, j].Text = i + ", " + j;
                 }
             }
         }
