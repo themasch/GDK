@@ -33,6 +33,7 @@ namespace GDK
                 for (int j = 0; j < tokens.Length; j++)
                     ret[i, j] = tokens[j];
             }
+            sr.Close();
             return ret;
         }
 

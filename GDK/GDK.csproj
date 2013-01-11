@@ -103,6 +103,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CSV.cs" />
+    <Compile Include="Highscore.cs" />
     <Compile Include="Feld.cs" />
     <Compile Include="FeldErzeuger.cs" />
     <Compile Include="Ressourcen.cs" />
