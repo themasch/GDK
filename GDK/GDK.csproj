@@ -81,6 +81,22 @@
     <EmbeddedResource Include="Bilder\Bild20.jpg" />
     <EmbeddedResource Include="Bilder\Bild21.jpg" />
     <EmbeddedResource Include="Bilder\Bild22.jpg" />
+    <EmbeddedResource Include="Bilder\Hangman\0.bmp" />
+    <EmbeddedResource Include="Bilder\Hangman\1.bmp" />
+    <EmbeddedResource Include="Bilder\Hangman\2.bmp" />
+    <EmbeddedResource Include="Bilder\Hangman\3.bmp" />
+    <EmbeddedResource Include="Bilder\Hangman\4.bmp" />
+    <EmbeddedResource Include="Bilder\Hangman\5.bmp" />
+    <EmbeddedResource Include="Bilder\Hangman\6.bmp" />
+    <EmbeddedResource Include="Bilder\Hangman\7.bmp" />
+    <EmbeddedResource Include="Bilder\Hangman\8.bmp" />
+    <EmbeddedResource Include="Bilder\Hangman\9.bmp" />
+    <EmbeddedResource Include="Bilder\Hangman\10.bmp" />
+    <EmbeddedResource Include="Bilder\Hangman\11.bmp" />
+    <EmbeddedResource Include="Bilder\Hangman\12.bmp" />
+    <EmbeddedResource Include="Bilder\Hangman\13.bmp" />
+    <EmbeddedResource Include="Bilder\Hangman\14.bmp" />
+    <EmbeddedResource Include="Bilder\Hangman\15.bmp" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Anwendung.cs">
