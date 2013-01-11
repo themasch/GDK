@@ -20,12 +20,12 @@ namespace GDK
 		{
             /*
             // Beispiele für den Felderzeuger
-            Feld<Button> meinFeld = FeldErzeuger<Button>.createField(4, 3);
-            Button[,] cont = meinFeld.Content; // Zugriff auf die Elemente
+            Feld<Label> meinFeld = FeldErzeuger<Label>.createField(4, 3);
+            Label[,] cont = meinFeld.Content; // Zugriff auf die Elemente
             cont[1, 2].Text = "Neu";
             meinFeld.Width = 50;    // Breite verändern
             meinFeld.Height = 50;   // Höhe verändern
-            foreach (Button l in cont)
+            foreach (Label l in cont)
             {
                 this.Controls.Add(l);
                 l.MouseEnter += new EventHandler(mouseEnter);
@@ -56,11 +56,6 @@ namespace GDK
             b.BackColor = Color.Yellow;
         }
         */
-
-        public void Init()
-        {
-
-        }
 
         public void Start()
 		{

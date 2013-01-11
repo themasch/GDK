@@ -14,9 +14,14 @@ namespace GDK
         private int rows;
         private int cols;
         private T[,] content;
+        private int x = 0;
+        private int y = 0;
 
         public int Width { set { width = value; resizeField(); } }
         public int Height { set { height = value; resizeField(); } }
+
+        public int X { set { x = value; resizeField(); } }
+        public int Y { set { y = value; resizeField(); } }
 
         public int Rows { get { return rows; } }
         public int Cols { get { return cols; } }
@@ -32,7 +37,7 @@ namespace GDK
         {
             for (int i = 0; i < Rows; i++)
                 for (int j = 0; j < Cols; j++)
-                    content[i, j].SetBounds(j * width, i * height, width, height);
+                    content[i, j].SetBounds((j * width)+x, (i * height)+y, width, height);
         }
 
         private void createField()
@@ -43,7 +48,7 @@ namespace GDK
                 for (int j = 0; j < Cols; j++)
                 {
                     content[i, j] = new T();
-                    content[i, j].SetBounds(j * width, i * height, width, height);
+                    content[i, j].SetBounds((j * width)+x, (i * height)+y, width, height);
                     //content[i, j].Text = i + ", " + j;
                 }
             }
